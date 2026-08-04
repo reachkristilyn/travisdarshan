@@ -55,7 +55,7 @@
       left: 0;
       right: 0;
       height: calc(100vh - 4rem);
-      background: #FAFAF7;
+      background: #0C0B09;
       z-index: 99;
       overflow-y: auto;
       padding: 1rem 2rem;
@@ -64,13 +64,13 @@
       display: block;
       width: 100%;
       padding: 1.25rem 0;
-      border-bottom: 1px solid #E2E2DC;
+      border-bottom: 1px solid #26241F;
     }
-    .nav-links.open li:first-child { border-top: 1px solid #E2E2DC; }
+    .nav-links.open li:first-child { border-top: 1px solid #26241F; }
     .nav-links.open a {
       font-size: 1.1rem;
       font-weight: 500;
-      color: #1E2A45;
+      color: #F2EDE3;
       letter-spacing: 0.06em;
       text-transform: uppercase;
       display: block;
