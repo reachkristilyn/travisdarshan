@@ -1,12 +1,13 @@
 // shared.js — injects nav and footer, sets active link
 (function() {
   const path = window.location.pathname.split('/').pop() || 'index.html';
-  const pages = [
-    { href: 'index.html',    label: 'Home' },
+const pages = [
     { href: 'about.html',    label: 'About' },
     { href: 'books.html',    label: 'Books' },
+    { href: 'music.html',    label: 'Music' },
     { href: 'projects.html', label: 'AI + Research' },
-    { href: 'nonprofit.html',label: 'Beyond the Curve' },
+    { href: 'nonprofit.html',label: 'Philanthropy' },
+    { href: 'press.html',    label: 'Press' },
     { href: 'contact.html',  label: 'Contact' },
   ];
   const navHTML = `
