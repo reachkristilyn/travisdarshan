@@ -893,3 +893,4 @@ nav {
   margin-top: 0.85rem;
 }
 .tile:hover .tile-label { color: var(--terra); }
+.nav-logo-home { color: var(--terra); }

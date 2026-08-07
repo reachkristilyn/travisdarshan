@@ -12,7 +12,7 @@ const pages = [
   ];
   const navHTML = `
     <nav>
-      <a href="index.html" class="nav-logo">Travis Darshan</a>
+      <a href="index.html" class="nav-logo${path === 'index.html' ? ' nav-logo-home' : ''}">Travis Darshan</a>
       <ul class="nav-links">
         ${pages.map(p => `<li><a href="${p.href}"${path === p.href ? ' class="active"' : ''}>${p.label}</a></li>`).join('')}
       </ul>
