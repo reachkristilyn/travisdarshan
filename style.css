@@ -854,3 +854,42 @@ h1, h2, .section-title, .page-hero h1 {
   line-height: 2.2;
   color: var(--mid);
 }
+
+/* ── CENTERED NAV (tmwrk-style) ── */
+body { padding-top: 0; }
+nav {
+  position: static;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3.5rem 1.5rem 1.5rem;
+  background: transparent;
+  backdrop-filter: none;
+  border-bottom: none;
+}
+.nav-logo { font-size: clamp(1.7rem, 5vw, 2.5rem); letter-spacing: 0.16em; }
+.nav-links { flex-wrap: wrap; justify-content: center; gap: 1rem 1.75rem; }
+.hamburger { display: none !important; }
+@media (max-width: 768px) {
+  .nav-links { display: flex; }
+}
+
+/* ── HOME TILE GRID ── */
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  max-width: 1300px;
+  margin: 3rem auto 0;
+  padding: 0 1.5rem 5rem;
+}
+.tile { text-decoration: none; display: block; }
+.tile img { width: 100%; aspect-ratio: 1/1; object-fit: cover; display: block; }
+.tile-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin-top: 0.85rem;
+}
+.tile:hover .tile-label { color: var(--terra); }
