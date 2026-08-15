@@ -7,7 +7,7 @@ const pages = [
     { href: 'music.html',    label: 'Music' },
     { href: 'mathematics.html',     label: 'Mathematics' },
     { href: 'neuroaesthetics.html', label: 'Neuroaesthetics' },
-    { href: 'nonprofit.html',label: 'Nonprofit' },
+    { href: 'nonprofit.html',label: 'Beyond the Curve' },
     { href: 'press.html',    label: 'Press' },
     { href: 'contact.html',  label: 'Contact' },
   ];
