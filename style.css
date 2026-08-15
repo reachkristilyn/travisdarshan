@@ -895,19 +895,17 @@ nav {
 .tile:hover .tile-label { color: var(--terra); }
 .nav-logo-home { color: var(--terra); }
 
-/* ── FOOTER MATCH NAV ── */
+/* ── FOOTER ── */
+.footer-inner { flex-direction: column; gap: 1.25rem; text-align: center; }
 .footer-logo {
   font-family: var(--sans);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-size: 1rem;
+  letter-spacing: 0.14em;
+  font-size: 0.85rem;
 }
-.footer-links a {
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  color: var(--forest);
-}
+.footer-links { flex-wrap: wrap; justify-content: center; gap: 0.6rem 1.25rem; }
+.footer-links li { white-space: nowrap; }
+.footer-links a { font-size: 0.65rem; font-weight: 500; letter-spacing: 0.08em; color: var(--forest); }
 .footer-links a:hover { color: var(--terra); }
-.footer-copy { font-size: 0.75rem; }
+.footer-copy { font-size: 0.68rem; }
