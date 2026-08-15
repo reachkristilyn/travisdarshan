@@ -5,8 +5,9 @@ const pages = [
     { href: 'about.html',    label: 'About' },
     { href: 'books.html',    label: 'Books' },
     { href: 'music.html',    label: 'Music' },
-    { href: 'projects.html', label: 'AI + Research' },
-    { href: 'nonprofit.html',label: 'Philanthropy' },
+    { href: 'mathematics.html',     label: 'Mathematics' },
+    { href: 'neuroaesthetics.html', label: 'Neuroaesthetics' },
+    { href: 'nonprofit.html',label: 'Nonprofit' },
     { href: 'press.html',    label: 'Press' },
     { href: 'contact.html',  label: 'Contact' },
   ];
